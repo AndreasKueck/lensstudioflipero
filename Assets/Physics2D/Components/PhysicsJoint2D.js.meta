@@ -1,0 +1,114 @@
+- !<AssetImportMetadata/10223d3e-30a4-49ed-a203-52e51d144342>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 3649b814-84d4-4c20-97d6-7261725182d1
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 3649b814-84d4-4c20-97d6-7261725182d1
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> ae17228e-50bd-4e59-b441-c2fd1581369a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/ae17228e-50bd-4e59-b441-c2fd1581369a>
+  SvgIcon: |
+    <?xml version="1.0" encoding="utf-8"?>
+    <!-- Generator: Adobe Illustrator 26.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+    <style type="text/css">
+    	.st0{fill:#3300CC;}
+    	.st1{fill:#7891C9;}
+    </style>
+    <rect x="3.5" y="3.1" class="st0" width="57.2" height="57.2"/>
+    <path class="st1" d="M36.1,31.4l16,0.2c2.2,0,4,1.9,4,4.2l0.1,16.7c0,2.3-1.8,4.1-4,4.1l-16-0.2c-2.2,0-4-1.9-4-4.2l-0.1-16.7
+    	C32.1,33.2,33.9,31.3,36.1,31.4z"/>
+    <circle class="st1" cx="18.6" cy="45.7" r="10.9"/>
+    <polygon class="st1" points="44.2,8.2 33.5,28.6 54.9,28.6 "/>
+    </svg>
+
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 27479c66-d884-4b29-b3e6-c281d773a412
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    advanced: false
+    bodyA: false
+    bodyB: false
+    collideConnected: false
+    distDampingRatio: false
+    distFrequencyHz: false
+    distLength: false
+    jointType: false
+    physics: false
+    priEnableLimit: false
+    priEnableMotor: false
+    priLowerTranslation: false
+    priMaxMotorForce: false
+    priMotorSpeed: false
+    priUpperTranslation: false
+    revEnableLimit: false
+    revEnableMotor: false
+    revLowerAngle: false
+    revMaxMotorTorque: false
+    revMotorSpeed: false
+    revUpperAngle: false
+    ropeMaxLength: false
+    weldDampingRatio: false
+    weldFrequencyHz: false
+    whDampingRatio: false
+    whEnableMotor: false
+    whFrequencyHz: false
+    whMaxMotorTorque: false
+    whMotorSpeed: false
+  ScriptTypesHidden:
+    PhysicsBody2D: true
+  ReadMe: !<reference> 922d9e61-6547-43c9-b2f2-035ea8df2669
+  DeclarationFile: !<reference> 33715470-5d5e-43b2-9988-9cd9bec65552
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - bodyA: !<Typename.PhysicsBody2D> 00000000-0000-0000-0000-000000000000
+      bodyB: !<Typename.PhysicsBody2D> 00000000-0000-0000-0000-000000000000
+      jointType: revolute
+      collideConnected: false
+      revEnableLimit: false
+      revLowerAngle: -0.785000
+      revUpperAngle: 0.785000
+      revEnableMotor: false
+      revMotorSpeed: !<float> 0.000000
+      revMaxMotorTorque: !<float> 0.000000
+      distLength: !<float> 0.000000
+      distFrequencyHz: !<float> 0.000000
+      distDampingRatio: !<float> 0.000000
+      weldFrequencyHz: !<float> 0.000000
+      weldDampingRatio: !<float> 0.000000
+      priEnableLimit: false
+      priLowerTranslation: !<float> -100.000000
+      priUpperTranslation: !<float> 100.000000
+      priEnableMotor: false
+      priMotorSpeed: !<float> 0.000000
+      priMaxMotorForce: !<float> 0.000000
+      ropeMaxLength: !<float> 0.000000
+      whFrequencyHz: !<float> 4.000000
+      whDampingRatio: 0.700000
+      whEnableMotor: false
+      whMotorSpeed: !<float> 0.000000
+      whMaxMotorTorque: !<float> 0.000000
+      advanced: false
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    - PhysicsBody2D: !<reference.ScriptAsset> df917e87-454d-4d0a-a10a-bc9645dc2d5b

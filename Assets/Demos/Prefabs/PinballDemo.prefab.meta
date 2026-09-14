@@ -1,0 +1,1852 @@
+- !<AssetImportMetadata/7c4c4ee4-9e75-4364-972f-ac46a14a2fb6>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> bb49b4b5-6f1e-437b-a456-9e0ec1e402e5
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> bb49b4b5-6f1e-437b-a456-9e0ec1e402e5
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 7f75abb4-ecd4-4cde-8849-895fb29f9dd7
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/06926607-503d-41c8-5540-287f0633098b>
+  PrefabRemaps:
+    - 06926607-503d-41c8-5540-287f0633098b: 7dcad7d9-3106-4b58-7032-e73da3db152a
+    - 084f1762-6ea3-4bf2-4c02-29589809b87e: 3b0f95fa-8791-4534-71dc-712d0f81dcac
+    - 571ee32b-0035-438a-4e0f-f9fe470aefea: 82c9d146-0bfb-4918-6b7a-9f819817b87b
+  Name: Ball
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 39.800102, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 3.000000, y: 3.000000, z: 3.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 571ee32b-0035-438a-4e0f-f9fe470aefea
+    - !<own> 084f1762-6ea3-4bf2-4c02-29589809b87e
+- !<Text/07e336dd-3a97-49c9-98b9-0dda7b35b1a4>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: Tap Left and Right for flippers
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableRichText: false
+  SizeToFit: false
+  FontSize: 48.000000
+  FontSource: !<reference> 00000000-0000-0000-0000-000000000000
+  PreferredStyle: Regular
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  DebugRenderLayoutRect: false
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlphaAuto
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<ScriptComponent/084f1762-6ea3-4bf2-4c02-29589809b87e>
+  PrefabRemaps:
+    []
+  Name: PhysicsBody2D
+  Enabled: true
+  ScriptAsset: !<reference> df917e87-454d-4d0a-a10a-bc9645dc2d5b
+  ScriptInputsDefault:
+    bodyType: true
+    shape: true
+    polygonVerts: true
+    restitution: true
+    linearDamping: true
+    angularDamping: true
+    advanced: true
+    driveRotation: true
+    physics: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bodyType: dynamic
+      shape: circle
+      polygonVerts: "[-1,-1],[1,-1],[1,1],[-1,1]"
+      density: !<float> 1.000000
+      friction: 0.600000
+      restitution: 0.600000
+      linearDamping: 0.050000
+      angularDamping: 0.050000
+      advanced: false
+      driveRotation: true
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/0bde266f-4c86-47ed-7ad8-09a379294df2>
+  PrefabRemaps:
+    []
+  Name: Level
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> feaaf152-c257-4b47-6c56-9dc9aacc7860
+    - !<own> 4427059d-d0e0-4f88-6912-550aa3a5ed20
+    - !<own> 99c0135a-6d3b-4ab2-5e6f-1ab30d782c0d
+    - !<own> bd125a09-1ae7-4bc9-6a4a-d0e203e44f7d
+    - !<own> e115729b-30ac-4ade-5ddd-1466a4500fc1
+    - !<own> 90d4fee4-a8cf-414c-498d-eb8d8445aa6e
+    - !<own> 8f28c0f3-9e79-4704-4f59-ee4a1d4d3329
+    - !<own> f9f182f5-b72e-4505-53ce-9dabd79f927d
+    - !<own> 8e7b2d3f-8517-419b-4c33-e827cca9c605
+    - !<own> 0c717870-b7ae-4118-5221-1c11e8342ddd
+    - !<own> 3e400dd6-fccf-48ad-5a02-02974bb8a5b1
+    - !<own> afec43cb-c387-4554-5239-537c91482510
+    - !<own> 570b2afa-015f-4d62-4779-d53fe587b6f0
+    - !<own> 36705cff-b9c0-427d-6eed-402d8a84170f
+    - !<own> fb0aeb5e-2bf6-45fd-5b2d-c1a14000253f
+    - !<own> 969a2af6-e4ba-4f28-6290-68d74c23a8b6
+    - !<own> 265175b9-f221-41cc-548f-de1b31f1c44a
+  Components:
+    []
+- !<SceneObject/0bf15873-1896-402f-4f49-d71695bc5be5>
+  PrefabRemaps:
+    []
+  Name: pinball_flipper_right
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 9.000000, y: -27.601768, z: 1.560612}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 13.460992, y: 5.007042, z: 2.004439}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2ce4a994-8329-4a4a-6af8-f4b480e2a98b
+    - !<own> f6fec980-c3a0-40b8-4b96-ba75c5be706c
+    - !<own> 4afaf25d-0ec7-4276-7c69-7269bf97dc50
+- !<SceneObject/0c717870-b7ae-4118-5221-1c11e8342ddd>
+  PrefabRemaps:
+    []
+  Name: wallL
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -24.387167, y: -16.347153, z: 0.994061}
+    Rotation: {x: 180.000000, y: -0.000005, z: 180.000000}
+    Scale: {x: 1.592712, y: 1.592712, z: 1.592712}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a188c04e-1ef0-4028-46c6-b58ba5d19ad4
+    - !<own> c1e4f083-cc59-453f-63b7-205a1fa5cc83
+- !<ScriptComponent/0f89eaf6-d4ef-429a-42cd-4c3c6398a834>
+  PrefabRemaps:
+    []
+  Name: PhysicsJoint2D
+  Enabled: true
+  ScriptAsset: !<reference> 3649b814-84d4-4c20-97d6-7261725182d1
+  ScriptInputsDefault:
+    bodyB: true
+    jointType: true
+    collideConnected: true
+    distLength: true
+    distFrequencyHz: true
+    distDampingRatio: true
+    weldFrequencyHz: true
+    weldDampingRatio: true
+    priEnableLimit: true
+    priLowerTranslation: true
+    priUpperTranslation: true
+    priEnableMotor: true
+    priMotorSpeed: true
+    priMaxMotorForce: true
+    ropeMaxLength: true
+    whFrequencyHz: true
+    whDampingRatio: true
+    whEnableMotor: true
+    whMotorSpeed: true
+    whMaxMotorTorque: true
+    advanced: true
+    physics: true
+  ScriptTypesDefault:
+    PhysicsBody2D: true
+  ScriptInputs:
+    "":
+      bodyA: !<Typename.PhysicsBody2D> f6fec980-c3a0-40b8-4b96-ba75c5be706c
+      bodyB: !<Typename.PhysicsBody2D> 00000000-0000-0000-0000-000000000000
+      jointType: revolute
+      collideConnected: false
+      revEnableLimit: true
+      revLowerAngle: -0.500000
+      revUpperAngle: 0.500000
+      revEnableMotor: true
+      revMotorSpeed: !<float> 1.000000
+      revMaxMotorTorque: 0.100000
+      distLength: !<float> 0.000000
+      distFrequencyHz: !<float> 0.000000
+      distDampingRatio: !<float> 0.000000
+      weldFrequencyHz: !<float> 0.000000
+      weldDampingRatio: !<float> 0.000000
+      priEnableLimit: false
+      priLowerTranslation: !<float> -100.000000
+      priUpperTranslation: !<float> 100.000000
+      priEnableMotor: false
+      priMotorSpeed: !<float> 0.000000
+      priMaxMotorForce: !<float> 0.000000
+      ropeMaxLength: !<float> 0.000000
+      whFrequencyHz: !<float> 4.000000
+      whDampingRatio: 0.700000
+      whEnableMotor: false
+      whMotorSpeed: !<float> 0.000000
+      whMaxMotorTorque: !<float> 0.000000
+      advanced: false
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      PhysicsBody2D: !<reference.ScriptAsset> df917e87-454d-4d0a-a10a-bc9645dc2d5b
+- !<RenderMeshVisual/1196e5a8-27bc-4a12-5cb0-6e47fec186fc>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> df814424-8dc6-46e5-8167-781f2a78a47d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/11ee1478-4de5-4b6c-4827-aeb15774f236>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Caster
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 3aaf3cf9-2fd3-4300-94c8-89ba3f8ad983
+  Mesh: !<reference> df814424-8dc6-46e5-8167-781f2a78a47d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/169f3fe2-56dc-4443-5c55-90e8fe551073>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Caster
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0ee7dc4e-a982-4732-91bb-a8bea0199b91
+  Mesh: !<reference> df814424-8dc6-46e5-8167-781f2a78a47d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/22e22bb5-c4da-430e-5c53-a7b62faec8e6>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Caster
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> fbc5ee13-138b-4a07-aa78-a7a9c081125d
+  Mesh: !<reference> df814424-8dc6-46e5-8167-781f2a78a47d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/265175b9-f221-41cc-548f-de1b31f1c44a>
+  PrefabRemaps:
+    []
+  Name: ceiling
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 47.508827, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 56.153778, y: 10.000000, z: 10.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e4cff847-c5f1-44d3-5e72-03e76874c45c
+- !<RenderMeshVisual/2ce4a994-8329-4a4a-6af8-f4b480e2a98b>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Caster
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f0556485-f692-4691-8761-a2afe8322f8b
+  Mesh: !<reference> df814424-8dc6-46e5-8167-781f2a78a47d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/2ead936a-05d9-4cde-4ee1-ab28f12cf322>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Caster
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0ee7dc4e-a982-4732-91bb-a8bea0199b91
+  Mesh: !<reference> df814424-8dc6-46e5-8167-781f2a78a47d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/30b1343d-38fd-47d5-71e5-af7f645e0787>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Caster
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 73580af1-2807-47d2-ba53-c05722d23f73
+  Mesh: !<reference> df814424-8dc6-46e5-8167-781f2a78a47d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/36705cff-b9c0-427d-6eed-402d8a84170f>
+  PrefabRemaps:
+    []
+  Name: collisions_right_slope
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 18.177368, y: -37.882549, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: -40.368046}
+    Scale: {x: 6.998751, y: 36.000000, z: 1.592712}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1196e5a8-27bc-4a12-5cb0-6e47fec186fc
+    - !<own> 8704ecd3-b628-42da-55dd-618e998e2543
+- !<RenderMeshVisual/36916681-847b-423d-6209-068e1eca1b30>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Caster
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 3f2c4d9f-6223-4a96-b8e9-7885a3d67188
+  Mesh: !<reference> df814424-8dc6-46e5-8167-781f2a78a47d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/3dac29f5-c3f6-4f0c-4a5d-91e62605a0e5>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Caster
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9ee9b72a-949e-46ec-ba02-915232a5a81e
+  Mesh: !<reference> 02b76823-3d09-4b0f-a0cd-a370fbe3a540
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/3e400dd6-fccf-48ad-5a02-02974bb8a5b1>
+  PrefabRemaps:
+    []
+  Name: wallR
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 23.761545, y: -16.347153, z: 0.994061}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.592712, y: 1.592712, z: 1.592712}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3dac29f5-c3f6-4f0c-4a5d-91e62605a0e5
+    - !<own> ffd7507d-2791-44c5-59ef-f35d7f326966
+- !<SceneObject/4427059d-d0e0-4f88-6912-550aa3a5ed20>
+  PrefabRemaps:
+    []
+  Name: pinball_bumper2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 11.697111, y: 33.637817, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 11.034481, y: 11.034481, z: 11.034481}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 22e22bb5-c4da-430e-5c53-a7b62faec8e6
+    - !<own> e0873ff9-3cbe-4363-5625-1f40b91f4f90
+- !<SceneObject/45f706dd-9ca9-4117-519b-efde227c125e>
+  PrefabRemaps:
+    []
+  Name: Flippers
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 949e56d5-5f59-438b-5133-8e4e20060400
+    - !<own> 0bf15873-1896-402f-4f49-d71695bc5be5
+    - !<own> 5d8b4a60-2024-4a40-7eca-70c086f72252
+    - !<own> 9b791222-4a29-4c5f-65d5-48ea690a8599
+  Components:
+    []
+- !<ScriptComponent/4a5f1f8f-1347-4e7f-6d71-425828903c09>
+  PrefabRemaps:
+    []
+  Name: PhysicsBody2D
+  Enabled: true
+  ScriptAsset: !<reference> df917e87-454d-4d0a-a10a-bc9645dc2d5b
+  ScriptInputsDefault:
+    polygonVerts: true
+    density: true
+    friction: true
+    restitution: true
+    linearDamping: true
+    angularDamping: true
+    advanced: true
+    driveRotation: true
+    physics: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bodyType: static
+      shape: box
+      polygonVerts: "[-1,-1],[1,-1],[1,1],[-1,1]"
+      density: 0.400000
+      friction: 0.400000
+      restitution: 0.600000
+      linearDamping: 0.050000
+      angularDamping: 0.050000
+      advanced: false
+      driveRotation: true
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/4afaf25d-0ec7-4276-7c69-7269bf97dc50>
+  PrefabRemaps:
+    []
+  Name: PhysicsFlipper2D
+  Enabled: true
+  ScriptAsset: !<reference> c7df7682-52af-41d5-ac66-6ce289ccbd7f
+  ScriptInputsDefault:
+    flipDirection: true
+    flipSpeed: true
+    advanced: true
+    returnSpeed: true
+    returnStrength: true
+    physics: true
+  ScriptTypesDefault:
+    PhysicsJoint2D: true
+  ScriptInputs:
+    "":
+      flipperJoint: !<Typename.PhysicsJoint2D> 0f89eaf6-d4ef-429a-42cd-4c3c6398a834
+      control: right
+      flipDirection: ccw
+      flipStrength: !<float> 3.000000
+      flipSpeed: !<float> 25.000000
+      advanced: false
+      returnSpeed: !<float> 10.000000
+      returnStrength: !<float> 0.000000
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      PhysicsJoint2D: !<reference.ScriptAsset> 3649b814-84d4-4c20-97d6-7261725182d1
+- !<ScriptComponent/4f99759a-63a5-453f-6910-a346573267dc>
+  PrefabRemaps:
+    []
+  Name: PhysicsFlipper2D
+  Enabled: true
+  ScriptAsset: !<reference> c7df7682-52af-41d5-ac66-6ce289ccbd7f
+  ScriptInputsDefault:
+    control: true
+    flipSpeed: true
+    advanced: true
+    returnSpeed: true
+    returnStrength: true
+    physics: true
+  ScriptTypesDefault:
+    PhysicsJoint2D: true
+  ScriptInputs:
+    "":
+      flipperJoint: !<Typename.PhysicsJoint2D> afd8b4a6-8ba9-492d-6b11-432bdb1f330a
+      control: left
+      flipDirection: cw
+      flipStrength: !<float> 3.000000
+      flipSpeed: !<float> 25.000000
+      advanced: false
+      returnSpeed: !<float> 10.000000
+      returnStrength: !<float> 0.000000
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      PhysicsJoint2D: !<reference.ScriptAsset> 3649b814-84d4-4c20-97d6-7261725182d1
+- !<ScriptComponent/5019189a-d6aa-49c2-4be2-9f5c1b55b1f1>
+  PrefabRemaps:
+    []
+  Name: PhysicsSpawner2D
+  Enabled: true
+  ScriptAsset: !<reference> 4e4a24b2-d9a1-4d6c-958f-e34b0e781691
+  ScriptInputsDefault:
+    pickMode: true
+    advanced: true
+    spawnUnder: true
+    physics: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      shapes: !<reference.ObjectPrefab[]>
+        - !<reference> 99b2b464-3c4f-4683-a5de-dee927c29fa5
+      pickMode: order
+      limit: 0
+      spawnOnTap: false
+      advanced: false
+      spawnUnder: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/570b2afa-015f-4d62-4779-d53fe587b6f0>
+  PrefabRemaps:
+    []
+  Name: collisions_left_slope
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -21.186806, y: -35.070820, z: 0.000000}
+    Rotation: {x: 0.000000, y: -0.000000, z: 39.165882}
+    Scale: {x: 6.998751, y: 36.000000, z: 1.592712}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b9530801-ceea-4381-4b4f-753153c39227
+    - !<own> 77ea6a58-d5fe-4d74-723b-5e69f6459de7
+- !<RenderMeshVisual/571ee32b-0035-438a-4e0f-f9fe470aefea>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0561e5f6-b540-4806-b99e-75858e0a662e
+  Mesh: !<reference> 233fdf73-23b8-42ee-9e18-9c9545250119
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/580612d9-6956-44a5-78e2-1458bd493dad>
+  PrefabRemaps:
+    []
+  Name: PhysicsBody2D
+  Enabled: true
+  ScriptAsset: !<reference> df917e87-454d-4d0a-a10a-bc9645dc2d5b
+  ScriptInputsDefault:
+    bodyType: true
+    polygonVerts: true
+    density: true
+    friction: true
+    restitution: true
+    linearDamping: true
+    angularDamping: true
+    advanced: true
+    driveRotation: true
+    physics: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bodyType: dynamic
+      shape: box
+      polygonVerts: "[-1,-1],[1,-1],[1,1],[-1,1]"
+      density: 0.400000
+      friction: 0.400000
+      restitution: 0.600000
+      linearDamping: 0.050000
+      angularDamping: 0.050000
+      advanced: false
+      driveRotation: true
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/592d0f0c-653f-4a4b-4f19-eedeb041cd95>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> df814424-8dc6-46e5-8167-781f2a78a47d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/5d8b4a60-2024-4a40-7eca-70c086f72252>
+  PrefabRemaps:
+    []
+  Name: JointL
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -13.013230, y: -28.705017, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> afd8b4a6-8ba9-492d-6b11-432bdb1f330a
+- !<SceneObject/699c863a-4594-447e-4d1b-0e08237e0266>
+  PrefabRemaps:
+    []
+  Name: BallSpawner
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 39.800102, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5019189a-d6aa-49c2-4be2-9f5c1b55b1f1
+- !<RenderMeshVisual/6ab8ef1a-5111-4a5a-5a11-c73363c4dd20>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Caster
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 3f2c4d9f-6223-4a96-b8e9-7885a3d67188
+  Mesh: !<reference> df814424-8dc6-46e5-8167-781f2a78a47d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/6f2b01e9-ef6d-4da8-41d5-843442f1861b>
+  PrefabRemaps:
+    []
+  Name: PhysicsBody2D
+  Enabled: true
+  ScriptAsset: !<reference> df917e87-454d-4d0a-a10a-bc9645dc2d5b
+  ScriptInputsDefault:
+    polygonVerts: true
+    density: true
+    friction: true
+    restitution: true
+    linearDamping: true
+    angularDamping: true
+    advanced: true
+    driveRotation: true
+    physics: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bodyType: static
+      shape: box
+      polygonVerts: "[-1,-1],[1,-1],[1,1],[-1,1]"
+      density: 0.400000
+      friction: 0.400000
+      restitution: 0.600000
+      linearDamping: 0.050000
+      angularDamping: 0.050000
+      advanced: false
+      driveRotation: true
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/770813ad-14fd-4a52-53ef-509043543a9c>
+  PrefabRemaps:
+    []
+  Name: PhysicsBody2D
+  Enabled: true
+  ScriptAsset: !<reference> df917e87-454d-4d0a-a10a-bc9645dc2d5b
+  ScriptInputsDefault:
+    polygonVerts: true
+    density: true
+    friction: true
+    restitution: true
+    linearDamping: true
+    angularDamping: true
+    advanced: true
+    driveRotation: true
+    physics: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bodyType: static
+      shape: box
+      polygonVerts: "[-1,-1],[1,-1],[1,1],[-1,1]"
+      density: 0.400000
+      friction: 0.400000
+      restitution: 0.600000
+      linearDamping: 0.050000
+      angularDamping: 0.050000
+      advanced: false
+      driveRotation: true
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/77ea6a58-d5fe-4d74-723b-5e69f6459de7>
+  PrefabRemaps:
+    []
+  Name: PhysicsBody2D
+  Enabled: true
+  ScriptAsset: !<reference> df917e87-454d-4d0a-a10a-bc9645dc2d5b
+  ScriptInputsDefault:
+    polygonVerts: true
+    density: true
+    friction: true
+    restitution: true
+    linearDamping: true
+    angularDamping: true
+    advanced: true
+    driveRotation: true
+    physics: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bodyType: static
+      shape: box
+      polygonVerts: "[-1,-1],[1,-1],[1,1],[-1,1]"
+      density: 0.400000
+      friction: 0.400000
+      restitution: 0.600000
+      linearDamping: 0.050000
+      angularDamping: 0.050000
+      advanced: false
+      driveRotation: true
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefabAssetData/7f75abb4-ecd4-4cde-8849-895fb29f9dd7>
+  Prototype: !<ObjectOwner/dd228f31-4969-48fc-a338-51810fb291cb>
+    PackagePath: ""
+    objects:
+      - !<own> 944678c0-2460-4086-5dd8-61a472ded09c
+- !<ScriptComponent/8704ecd3-b628-42da-55dd-618e998e2543>
+  PrefabRemaps:
+    []
+  Name: PhysicsBody2D
+  Enabled: true
+  ScriptAsset: !<reference> df917e87-454d-4d0a-a10a-bc9645dc2d5b
+  ScriptInputsDefault:
+    polygonVerts: true
+    density: true
+    friction: true
+    restitution: true
+    linearDamping: true
+    angularDamping: true
+    advanced: true
+    driveRotation: true
+    physics: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bodyType: static
+      shape: box
+      polygonVerts: "[-1,-1],[1,-1],[1,1],[-1,1]"
+      density: 0.400000
+      friction: 0.400000
+      restitution: 0.600000
+      linearDamping: 0.050000
+      angularDamping: 0.050000
+      advanced: false
+      driveRotation: true
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/8e2acc84-9686-4ad3-4595-b7aa12529259>
+  PrefabRemaps:
+    []
+  Name: PhysicsBody2D
+  Enabled: true
+  ScriptAsset: !<reference> df917e87-454d-4d0a-a10a-bc9645dc2d5b
+  ScriptInputsDefault:
+    polygonVerts: true
+    density: true
+    friction: true
+    restitution: true
+    linearDamping: true
+    angularDamping: true
+    advanced: true
+    driveRotation: true
+    physics: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bodyType: static
+      shape: box
+      polygonVerts: "[-1,-1],[1,-1],[1,1],[-1,1]"
+      density: 0.400000
+      friction: 0.400000
+      restitution: 0.600000
+      linearDamping: 0.050000
+      angularDamping: 0.050000
+      advanced: false
+      driveRotation: true
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/8e7b2d3f-8517-419b-4c33-e827cca9c605>
+  PrefabRemaps:
+    []
+  Name: pinball_slope2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 17.770487, y: -18.428699, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 45.000000}
+    Scale: {x: 12.445930, y: 1.758445, z: 1.592712}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 36916681-847b-423d-6209-068e1eca1b30
+    - !<own> 6f2b01e9-ef6d-4da8-41d5-843442f1861b
+- !<SceneObject/8f28c0f3-9e79-4704-4f59-ee4a1d4d3329>
+  PrefabRemaps:
+    []
+  Name: pinball_sidetriangle2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 27.522177, y: 14.575857, z: 0.000000}
+    Rotation: {x: -180.000000, y: -0.000000, z: 132.843445}
+    Scale: {x: 11.332082, y: 11.332082, z: 2.100066}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 11ee1478-4de5-4b6c-4827-aeb15774f236
+    - !<own> ac4510cb-e1e5-40eb-7eb6-c56a526991fb
+- !<SceneObject/90d4fee4-a8cf-414c-498d-eb8d8445aa6e>
+  PrefabRemaps:
+    []
+  Name: pinball_sidetriangle1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -28.515497, y: 15.964291, z: 0.000000}
+    Rotation: {x: -180.000000, y: -0.000000, z: 132.843445}
+    Scale: {x: 11.332082, y: 11.332082, z: 2.100066}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d492f58e-702d-4f83-45f3-ffc1e57cf57d
+    - !<own> 8e2acc84-9686-4ad3-4595-b7aa12529259
+- !<SceneObject/944678c0-2460-4086-5dd8-61a472ded09c>
+  PrefabRemaps:
+    []
+  Name: Physics_Pinball
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> acfa0ed1-c5cf-40fe-9a30-d190335f59fc
+    - !<own> 06926607-503d-41c8-5540-287f0633098b
+    - !<own> a580d4ca-dd4f-47fe-7cea-debd1b9f20df
+    - !<own> 699c863a-4594-447e-4d1b-0e08237e0266
+    - !<own> 0bde266f-4c86-47ed-7ad8-09a379294df2
+    - !<own> 45f706dd-9ca9-4117-519b-efde227c125e
+  Components:
+    []
+- !<SceneObject/949e56d5-5f59-438b-5133-8e4e20060400>
+  PrefabRemaps:
+    []
+  Name: pinball_flipper_left
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -9.000000, y: -27.601768, z: 1.560612}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 13.460992, y: 5.007042, z: 2.004439}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 30b1343d-38fd-47d5-71e5-af7f645e0787
+    - !<own> 580612d9-6956-44a5-78e2-1458bd493dad
+    - !<own> 4f99759a-63a5-453f-6910-a346573267dc
+- !<SceneObject/969a2af6-e4ba-4f28-6290-68d74c23a8b6>
+  PrefabRemaps:
+    []
+  Name: kill_box
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -53.973343, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 22.981583, y: 10.000000, z: 10.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 770813ad-14fd-4a52-53ef-509043543a9c
+    - !<own> cef10026-61e9-4b6a-70c9-879cb3620302
+    - !<own> dcb098cc-c8de-4c49-4dda-713ebd87af20
+- !<SceneObject/99c0135a-6d3b-4ab2-5e6f-1ab30d782c0d>
+  PrefabRemaps:
+    []
+  Name: pinball_circle1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -10.581424, y: -0.675667, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 6.238375, y: 6.238375, z: 6.238375}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2ead936a-05d9-4cde-4ee1-ab28f12cf322
+    - !<own> be2293a2-1cca-4374-5110-48f22d39726b
+- !<SceneObject/9b791222-4a29-4c5f-65d5-48ea690a8599>
+  PrefabRemaps:
+    []
+  Name: JointR
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 13.013200, y: -28.705017, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0f89eaf6-d4ef-429a-42cd-4c3c6398a834
+- !<ScriptComponent/a12e6c2a-31a7-4316-45c1-d97787a9ae55>
+  PrefabRemaps:
+    []
+  Name: PhysicsBody2D
+  Enabled: true
+  ScriptAsset: !<reference> df917e87-454d-4d0a-a10a-bc9645dc2d5b
+  ScriptInputsDefault:
+    shape: true
+    polygonVerts: true
+    density: true
+    friction: true
+    restitution: true
+    linearDamping: true
+    angularDamping: true
+    advanced: true
+    driveRotation: true
+    physics: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bodyType: static
+      shape: circle
+      polygonVerts: "[-1,-1],[1,-1],[1,1],[-1,1]"
+      density: 0.400000
+      friction: 0.400000
+      restitution: 0.600000
+      linearDamping: 0.050000
+      angularDamping: 0.050000
+      advanced: false
+      driveRotation: true
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/a188c04e-1ef0-4028-46c6-b58ba5d19ad4>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Caster
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9ee9b72a-949e-46ec-ba02-915232a5a81e
+  Mesh: !<reference> 02b76823-3d09-4b0f-a0cd-a370fbe3a540
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a580d4ca-dd4f-47fe-7cea-debd1b9f20df>
+  PrefabRemaps:
+    []
+  Name: BallSpawn
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 40.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<ScriptComponent/a6a334e2-2419-424d-6abb-dcd374c83cd2>
+  PrefabRemaps:
+    []
+  Name: PhysicsBody2D
+  Enabled: true
+  ScriptAsset: !<reference> df917e87-454d-4d0a-a10a-bc9645dc2d5b
+  ScriptInputsDefault:
+    shape: true
+    polygonVerts: true
+    density: true
+    friction: true
+    restitution: true
+    linearDamping: true
+    angularDamping: true
+    advanced: true
+    driveRotation: true
+    physics: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bodyType: static
+      shape: circle
+      polygonVerts: "[-1,-1],[1,-1],[1,1],[-1,1]"
+      density: 0.400000
+      friction: 0.400000
+      restitution: 0.600000
+      linearDamping: 0.050000
+      angularDamping: 0.050000
+      advanced: false
+      driveRotation: true
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/ac4510cb-e1e5-40eb-7eb6-c56a526991fb>
+  PrefabRemaps:
+    []
+  Name: PhysicsBody2D
+  Enabled: true
+  ScriptAsset: !<reference> df917e87-454d-4d0a-a10a-bc9645dc2d5b
+  ScriptInputsDefault:
+    polygonVerts: true
+    density: true
+    friction: true
+    restitution: true
+    linearDamping: true
+    angularDamping: true
+    advanced: true
+    driveRotation: true
+    physics: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bodyType: static
+      shape: box
+      polygonVerts: "[-1,-1],[1,-1],[1,1],[-1,1]"
+      density: 0.400000
+      friction: 0.400000
+      restitution: 0.600000
+      linearDamping: 0.050000
+      angularDamping: 0.050000
+      advanced: false
+      driveRotation: true
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/acfa0ed1-c5cf-40fe-9a30-d190335f59fc>
+  PrefabRemaps:
+    []
+  Name: Title
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 9.379000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 2.752567, y: 2.752567, z: 2.752567}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 07e336dd-3a97-49c9-98b9-0dda7b35b1a4
+- !<ScriptComponent/afd8b4a6-8ba9-492d-6b11-432bdb1f330a>
+  PrefabRemaps:
+    []
+  Name: PhysicsJoint2D
+  Enabled: true
+  ScriptAsset: !<reference> 3649b814-84d4-4c20-97d6-7261725182d1
+  ScriptInputsDefault:
+    bodyB: true
+    jointType: true
+    collideConnected: true
+    distLength: true
+    distFrequencyHz: true
+    distDampingRatio: true
+    weldFrequencyHz: true
+    weldDampingRatio: true
+    priEnableLimit: true
+    priLowerTranslation: true
+    priUpperTranslation: true
+    priEnableMotor: true
+    priMotorSpeed: true
+    priMaxMotorForce: true
+    ropeMaxLength: true
+    whFrequencyHz: true
+    whDampingRatio: true
+    whEnableMotor: true
+    whMotorSpeed: true
+    whMaxMotorTorque: true
+    advanced: true
+    physics: true
+  ScriptTypesDefault:
+    PhysicsBody2D: true
+  ScriptInputs:
+    "":
+      bodyA: !<Typename.PhysicsBody2D> 580612d9-6956-44a5-78e2-1458bd493dad
+      bodyB: !<Typename.PhysicsBody2D> 00000000-0000-0000-0000-000000000000
+      jointType: revolute
+      collideConnected: false
+      revEnableLimit: true
+      revLowerAngle: -0.500000
+      revUpperAngle: 0.500000
+      revEnableMotor: true
+      revMotorSpeed: !<float> 1.000000
+      revMaxMotorTorque: 0.100000
+      distLength: !<float> 0.000000
+      distFrequencyHz: !<float> 0.000000
+      distDampingRatio: !<float> 0.000000
+      weldFrequencyHz: !<float> 0.000000
+      weldDampingRatio: !<float> 0.000000
+      priEnableLimit: false
+      priLowerTranslation: !<float> -100.000000
+      priUpperTranslation: !<float> 100.000000
+      priEnableMotor: false
+      priMotorSpeed: !<float> 0.000000
+      priMaxMotorForce: !<float> 0.000000
+      ropeMaxLength: !<float> 0.000000
+      whFrequencyHz: !<float> 4.000000
+      whDampingRatio: 0.700000
+      whEnableMotor: false
+      whMotorSpeed: !<float> 0.000000
+      whMaxMotorTorque: !<float> 0.000000
+      advanced: false
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      PhysicsBody2D: !<reference.ScriptAsset> df917e87-454d-4d0a-a10a-bc9645dc2d5b
+- !<SceneObject/afec43cb-c387-4554-5239-537c91482510>
+  PrefabRemaps:
+    []
+  Name: collision_leftwall
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -30.459110, y: -3.581863, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 6.998751, y: 114.818413, z: 1.592712}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 592d0f0c-653f-4a4b-4f19-eedeb041cd95
+    - !<own> f35a5cb1-58be-47df-5a4c-6bbce3076e66
+- !<RenderMeshVisual/b28c52ef-799b-481d-48e6-5f5422b619fc>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Caster
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> fbc5ee13-138b-4a07-aa78-a7a9c081125d
+  Mesh: !<reference> df814424-8dc6-46e5-8167-781f2a78a47d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/b9530801-ceea-4381-4b4f-753153c39227>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> df814424-8dc6-46e5-8167-781f2a78a47d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/bd125a09-1ae7-4bc9-6a4a-d0e203e44f7d>
+  PrefabRemaps:
+    []
+  Name: pinball_circle3
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.707341, y: 22.171724, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 6.238375, y: 6.238375, z: 6.238375}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ecd96a8a-fa84-4fb0-6639-f5ad754f96bb
+    - !<own> e59ed31f-5ea9-4411-6bbf-8b15e2eb681d
+- !<ScriptComponent/be2293a2-1cca-4374-5110-48f22d39726b>
+  PrefabRemaps:
+    []
+  Name: PhysicsBody2D
+  Enabled: true
+  ScriptAsset: !<reference> df917e87-454d-4d0a-a10a-bc9645dc2d5b
+  ScriptInputsDefault:
+    shape: true
+    polygonVerts: true
+    density: true
+    friction: true
+    restitution: true
+    linearDamping: true
+    angularDamping: true
+    advanced: true
+    driveRotation: true
+    physics: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bodyType: static
+      shape: circle
+      polygonVerts: "[-1,-1],[1,-1],[1,1],[-1,1]"
+      density: 0.400000
+      friction: 0.400000
+      restitution: 0.600000
+      linearDamping: 0.050000
+      angularDamping: 0.050000
+      advanced: false
+      driveRotation: true
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/c1e4f083-cc59-453f-63b7-205a1fa5cc83>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Caster
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 708b4659-574c-4dc7-8d6f-22aac6486461
+  Mesh: !<reference> 54b2c315-d222-4319-bc6b-8f93cc5daa9e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/cef10026-61e9-4b6a-70c9-879cb3620302>
+  PrefabRemaps:
+    []
+  Name: PhysicsKillZone2D
+  Enabled: true
+  ScriptAsset: !<reference> 71d6b5fc-1d10-4fb3-88d8-1998f3b9f5f9
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      spawner: !<reference.ScriptComponent> 5019189a-d6aa-49c2-4be2-9f5c1b55b1f1
+      spawnAt: !<reference.SceneObject> a580d4ca-dd4f-47fe-7cea-debd1b9f20df
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/d492f58e-702d-4f83-45f3-ffc1e57cf57d>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Caster
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 3aaf3cf9-2fd3-4300-94c8-89ba3f8ad983
+  Mesh: !<reference> df814424-8dc6-46e5-8167-781f2a78a47d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/dcb098cc-c8de-4c49-4dda-713ebd87af20>
+  PrefabRemaps:
+    []
+  Name: PhysicsCollision2D
+  Enabled: true
+  ScriptAsset: !<reference> 633036b0-2c6c-4ab8-844f-6862149d11c3
+  ScriptInputsDefault:
+    exitFunction: true
+    fireOnce: true
+    advanced: true
+    respondTo: true
+    filterObjects: true
+    physics: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      callTarget: !<reference.ScriptComponent> cef10026-61e9-4b6a-70c9-879cb3620302
+      enterFunction: killAndRespawn
+      exitFunction: ""
+      fireOnce: false
+      advanced: false
+      respondTo: any
+      filterObjects: !<reference.SceneObject[]>
+        []
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/e0873ff9-3cbe-4363-5625-1f40b91f4f90>
+  PrefabRemaps:
+    []
+  Name: PhysicsBody2D
+  Enabled: true
+  ScriptAsset: !<reference> df917e87-454d-4d0a-a10a-bc9645dc2d5b
+  ScriptInputsDefault:
+    shape: true
+    polygonVerts: true
+    density: true
+    friction: true
+    restitution: true
+    linearDamping: true
+    angularDamping: true
+    advanced: true
+    driveRotation: true
+    physics: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bodyType: static
+      shape: circle
+      polygonVerts: "[-1,-1],[1,-1],[1,1],[-1,1]"
+      density: 0.400000
+      friction: 0.400000
+      restitution: 0.600000
+      linearDamping: 0.050000
+      angularDamping: 0.050000
+      advanced: false
+      driveRotation: true
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/e115729b-30ac-4ade-5ddd-1466a4500fc1>
+  PrefabRemaps:
+    []
+  Name: pinball_circle2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 10.452667, y: -0.675667, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 6.238375, y: 6.238375, z: 6.238375}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 169f3fe2-56dc-4443-5c55-90e8fe551073
+    - !<own> a12e6c2a-31a7-4316-45c1-d97787a9ae55
+- !<ScriptComponent/e4cff847-c5f1-44d3-5e72-03e76874c45c>
+  PrefabRemaps:
+    []
+  Name: PhysicsBody2D
+  Enabled: true
+  ScriptAsset: !<reference> df917e87-454d-4d0a-a10a-bc9645dc2d5b
+  ScriptInputsDefault:
+    polygonVerts: true
+    density: true
+    friction: true
+    restitution: true
+    linearDamping: true
+    angularDamping: true
+    advanced: true
+    driveRotation: true
+    physics: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bodyType: static
+      shape: box
+      polygonVerts: "[-1,-1],[1,-1],[1,1],[-1,1]"
+      density: 0.400000
+      friction: 0.400000
+      restitution: 0.600000
+      linearDamping: 0.050000
+      angularDamping: 0.050000
+      advanced: false
+      driveRotation: true
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/e59ed31f-5ea9-4411-6bbf-8b15e2eb681d>
+  PrefabRemaps:
+    []
+  Name: PhysicsBody2D
+  Enabled: true
+  ScriptAsset: !<reference> df917e87-454d-4d0a-a10a-bc9645dc2d5b
+  ScriptInputsDefault:
+    shape: true
+    polygonVerts: true
+    density: true
+    friction: true
+    restitution: true
+    linearDamping: true
+    angularDamping: true
+    advanced: true
+    driveRotation: true
+    physics: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bodyType: static
+      shape: circle
+      polygonVerts: "[-1,-1],[1,-1],[1,1],[-1,1]"
+      density: 0.400000
+      friction: 0.400000
+      restitution: 0.600000
+      linearDamping: 0.050000
+      angularDamping: 0.050000
+      advanced: false
+      driveRotation: true
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/ea55091e-3cb1-4be3-59af-caca40c740ca>
+  PrefabRemaps:
+    []
+  Name: PhysicsBody2D
+  Enabled: true
+  ScriptAsset: !<reference> df917e87-454d-4d0a-a10a-bc9645dc2d5b
+  ScriptInputsDefault:
+    polygonVerts: true
+    density: true
+    friction: true
+    restitution: true
+    linearDamping: true
+    angularDamping: true
+    advanced: true
+    driveRotation: true
+    physics: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bodyType: static
+      shape: box
+      polygonVerts: "[-1,-1],[1,-1],[1,1],[-1,1]"
+      density: 0.400000
+      friction: 0.400000
+      restitution: 0.600000
+      linearDamping: 0.050000
+      angularDamping: 0.050000
+      advanced: false
+      driveRotation: true
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/ecd96a8a-fa84-4fb0-6639-f5ad754f96bb>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Caster
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0ee7dc4e-a982-4732-91bb-a8bea0199b91
+  Mesh: !<reference> df814424-8dc6-46e5-8167-781f2a78a47d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/f35a5cb1-58be-47df-5a4c-6bbce3076e66>
+  PrefabRemaps:
+    []
+  Name: PhysicsBody2D
+  Enabled: true
+  ScriptAsset: !<reference> df917e87-454d-4d0a-a10a-bc9645dc2d5b
+  ScriptInputsDefault:
+    polygonVerts: true
+    density: true
+    friction: true
+    restitution: true
+    linearDamping: true
+    angularDamping: true
+    advanced: true
+    driveRotation: true
+    physics: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bodyType: static
+      shape: box
+      polygonVerts: "[-1,-1],[1,-1],[1,1],[-1,1]"
+      density: 0.400000
+      friction: 0.400000
+      restitution: 0.600000
+      linearDamping: 0.050000
+      angularDamping: 0.050000
+      advanced: false
+      driveRotation: true
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/f6fec980-c3a0-40b8-4b96-ba75c5be706c>
+  PrefabRemaps:
+    []
+  Name: PhysicsBody2D
+  Enabled: true
+  ScriptAsset: !<reference> df917e87-454d-4d0a-a10a-bc9645dc2d5b
+  ScriptInputsDefault:
+    bodyType: true
+    polygonVerts: true
+    density: true
+    friction: true
+    restitution: true
+    linearDamping: true
+    angularDamping: true
+    advanced: true
+    driveRotation: true
+    physics: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bodyType: dynamic
+      shape: box
+      polygonVerts: "[-1,-1],[1,-1],[1,1],[-1,1]"
+      density: 0.400000
+      friction: 0.400000
+      restitution: 0.600000
+      linearDamping: 0.050000
+      angularDamping: 0.050000
+      advanced: false
+      driveRotation: true
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/f9f182f5-b72e-4505-53ce-9dabd79f927d>
+  PrefabRemaps:
+    []
+  Name: pinball_slope1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -18.117077, y: -18.428705, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: -45.000000}
+    Scale: {x: 12.445930, y: 1.758445, z: 1.592712}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6ab8ef1a-5111-4a5a-5a11-c73363c4dd20
+    - !<own> 4a5f1f8f-1347-4e7f-6d71-425828903c09
+- !<SceneObject/fb0aeb5e-2bf6-45fd-5b2d-c1a14000253f>
+  PrefabRemaps:
+    []
+  Name: collisions_rightwall
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 29.734539, y: -3.581863, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 6.998751, y: 114.818413, z: 1.592712}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ff81169f-2334-4ffc-6bdc-fcfa671b3d9d
+    - !<own> ea55091e-3cb1-4be3-59af-caca40c740ca
+- !<SceneObject/feaaf152-c257-4b47-6c56-9dc9aacc7860>
+  PrefabRemaps:
+    []
+  Name: pinball_bumper1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -13.841095, y: 33.637817, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 11.034481, y: 11.034481, z: 11.034481}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b28c52ef-799b-481d-48e6-5f5422b619fc
+    - !<own> a6a334e2-2419-424d-6abb-dcd374c83cd2
+- !<RenderMeshVisual/ff81169f-2334-4ffc-6bdc-fcfa671b3d9d>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> df814424-8dc6-46e5-8167-781f2a78a47d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/ffd7507d-2791-44c5-59ef-f35d7f326966>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Caster
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 708b4659-574c-4dc7-8d6f-22aac6486461
+  Mesh: !<reference> 54b2c315-d222-4319-bc6b-8f93cc5daa9e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

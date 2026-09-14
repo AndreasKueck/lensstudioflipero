@@ -1,0 +1,79 @@
+- !<ObjectPrefab/99b2b464-3c4f-4683-a5de-dee927c29fa5>
+  PackagePath: ""
+  objects:
+    - !<own> 7dcad7d9-3106-4b58-8fcd-18c25c24ead5
+  LazyLoading: false
+  RetainAssets: true
+  PreviewEnvironment: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/3b0f95fa-8791-4534-8e23-8ed2f07e2353>
+  PrefabRemaps:
+    []
+  Name: PhysicsBody2D
+  Enabled: true
+  ScriptAsset: !<reference> df917e87-454d-4d0a-a10a-bc9645dc2d5b
+  ScriptInputsDefault:
+    bodyType: true
+    shape: true
+    polygonVerts: true
+    restitution: true
+    linearDamping: true
+    angularDamping: true
+    advanced: true
+    driveRotation: true
+    physics: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bodyType: dynamic
+      shape: circle
+      polygonVerts: "[-1,-1],[1,-1],[1,1],[-1,1]"
+      density: !<float> 1.000000
+      friction: 0.600000
+      restitution: 0.600000
+      linearDamping: 0.050000
+      angularDamping: 0.050000
+      advanced: false
+      driveRotation: true
+      physics: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/7dcad7d9-3106-4b58-8fcd-18c25c24ead5>
+  PrefabRemaps:
+    - 3b0f95fa-8791-4534-8e23-8ed2f07e2353: 3b0f95fa-8791-4534-71dc-712d0f81dcac
+    - 7dcad7d9-3106-4b58-8fcd-18c25c24ead5: 7dcad7d9-3106-4b58-7032-e73da3db152a
+    - 82c9d146-0bfb-4918-9485-607e67e84784: 82c9d146-0bfb-4918-6b7a-9f819817b87b
+  Name: Ball
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 39.800102, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 3.000000, y: 3.000000, z: 3.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 82c9d146-0bfb-4918-9485-607e67e84784
+    - !<own> 3b0f95fa-8791-4534-8e23-8ed2f07e2353
+- !<RenderMeshVisual/82c9d146-0bfb-4918-9485-607e67e84784>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0561e5f6-b540-4806-b99e-75858e0a662e
+  Mesh: !<reference> 233fdf73-23b8-42ee-9e18-9c9545250119
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

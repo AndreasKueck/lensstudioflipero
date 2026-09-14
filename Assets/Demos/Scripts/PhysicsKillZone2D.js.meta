@@ -1,0 +1,61 @@
+- !<AssetImportMetadata/076b8ee5-8c90-4b23-9d94-9ff2b2c48e50>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 71d6b5fc-1d10-4fb3-88d8-1998f3b9f5f9
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 71d6b5fc-1d10-4fb3-88d8-1998f3b9f5f9
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 81c08b7b-c9e5-494b-8632-cf0a9f63514e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/81c08b7b-c9e5-494b-8632-cf0a9f63514e>
+  SvgIcon: |
+    <?xml version="1.0" encoding="utf-8"?>
+    <!-- Generator: Adobe Illustrator 26.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+    <style type="text/css">
+    	.st0{fill:#3300CC;}
+    	.st1{fill:#7891C9;}
+    </style>
+    <rect x="3.5" y="3.1" class="st0" width="57.2" height="57.2"/>
+    <path class="st1" d="M36.1,31.4l16,0.2c2.2,0,4,1.9,4,4.2l0.1,16.7c0,2.3-1.8,4.1-4,4.1l-16-0.2c-2.2,0-4-1.9-4-4.2l-0.1-16.7
+    	C32.1,33.2,33.9,31.3,36.1,31.4z"/>
+    <circle class="st1" cx="18.6" cy="45.7" r="10.9"/>
+    <polygon class="st1" points="44.2,8.2 33.5,28.6 54.9,28.6 "/>
+    </svg>
+
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: bf1f5cea-defe-455e-a53a-c69380fedb54
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    spawnAt: false
+    spawner: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - spawner: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      spawnAt: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
